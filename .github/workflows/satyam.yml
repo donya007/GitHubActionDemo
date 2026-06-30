@@ -1,4 +1,4 @@
-name: ci cd pipeline github action demo-1
+name: ci cd pipeline github action demo-1 30.6.2026
 
 on:
   workflow_dispatch:
@@ -17,9 +17,7 @@ jobs:
 
 
   
-  job2
-  job3
-  
+
 
 
 
