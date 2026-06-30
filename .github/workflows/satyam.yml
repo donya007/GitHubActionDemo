@@ -13,6 +13,13 @@ jobs:
       
     - name: Good Evening Greetings
       run: echo Hello Baby, Good Evening ..!
+
+    - name: linux commands
+      run: |
+        whoami
+        pwd
+        ls
+        echo "welcome sanjeev bhai to our group"
     
 
 
