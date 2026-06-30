@@ -9,7 +9,7 @@ jobs:
 
     steps: 
     - name: Checckout step
-      uses: actions/checkout@v7.0.0
+      uses: actions/checkout@v4.0.0
       
     - name: Good Evening Greetings
       run: echo Hello Baby, Good Evening ..!
