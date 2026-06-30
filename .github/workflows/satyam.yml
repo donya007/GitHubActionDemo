@@ -1,0 +1,25 @@
+name: ci cd pipeline github action demo-1
+
+on:
+  workflow_dispatch:
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+
+    steps: 
+    - name: Checckout step
+      uses: actions/checkout@v7.0.0
+      
+    - name: Good Evening Greetings
+      run: echo Hello Baby, Good Evening ..!
+    
+
+
+  
+  job2
+  job3
+  
+
+
+
