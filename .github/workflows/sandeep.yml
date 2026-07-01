@@ -1,0 +1,22 @@
+name: ci cd pipeline github action demo-1 1.7.2026
+
+on:
+  workflow_dispatch:
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+
+    steps: 
+    - name: Checckout step
+      uses: actions/checkout@v4.0.0
+      
+    - name: Good Evening Greetings
+      run: echo Hello Baby, Good Evening ..!
+
+    - name: linux commands
+      run: |
+        whoami
+        pwd
+        ls
+        echo "welcome sandeep bhai to our group"
